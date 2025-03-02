@@ -157,6 +157,16 @@ function removeItem(id) {
   // Step 2: delete this item from the list
   shoppingCartItems.value.splice(index, 1)
 }
+
+/* EP 16: Computed Properties
+   Items: subtotal, shippingEstimate, taxEstimate, total
+   Purpose: 
+   - Allows you to define a property that is calculated based on other data properties in your Vue instance.
+   - When any of the dependencies change, Vue automatically recalculates the computed property and updates the DOM accordingly.
+   - Can be accessed like ref objects.
+   - Declaritively describing how to derive a value based on other values.
+*/
+
 let subtotal = computed(() =>
   shoppingCartItems.value.reduce(
     (acc, item) => acc + item.price * item.quantity,
