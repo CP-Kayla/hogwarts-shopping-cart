@@ -3,18 +3,13 @@
 
 Paste into terminal (only the first time): ``` git clone https://github.com/CP-Kayla/learn-vue-3.git ```
 
-1. ``` cd learn-vue-3 ```
+1. ``` cd hogwarts-shopping-cart ```
 2. ``` code . ```
 
 ## Start the Development Server
 
 1. ``` npm install ```
 2. ``` npm run dev ```
-
-## Create and Switch to New Branch
-
-1. ``` git branch (name) ```
-2. ``` git switch (name) ```
 
 ## Commit VSCode to Github
 
